@@ -3,7 +3,7 @@
   "description": "notie - a clean and simple notification, input, and selection suite for javascript, with no dependencies",
   "author": "Jared Reich",
   "version": "3.9.4",
-  "main": "./dist/notie.min.js",
+  "main": "./src/notie.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jaredreich/notie.git"
