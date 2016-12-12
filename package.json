@@ -2,7 +2,7 @@
   "name": "notie",
   "description": "notie - a clean and simple notification, input, and selection suite for javascript, with no dependencies",
   "author": "Jared Reich",
-  "version": "3.9.4",
+  "version": "3.9.5",
   "main": "./src/notie.js",
   "repository": {
     "type": "git",
@@ -15,6 +15,9 @@
     "growl",
     "message"
   ],
+  "scripts":{
+    "build":"./node_modules/.bin/gulp"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jaredreich/notie/issues"

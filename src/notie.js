@@ -40,9 +40,10 @@ var notie = (function () {
   alertOuter.id = 'notie-alert-outer'
 
 	// Hide alert on click
-  // alertOuter.onclick = function () {
+  alertOuter.onclick = function () {
   //   alertHide()
-  // }
+    console.log('modal clicked');
+  }
 
   // add alert to body
   document.body.appendChild(alertOuter)
